@@ -28,9 +28,12 @@ p{
     box-shadow: 0px 1px 1px 2px black;
     width: 150px;
     height: 30px;
+    padding-right: 6px;
     background: whitesmoke;
     text-align: right;
+    text-shadow: 1px 0px 0px black;
     color: black;
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 button{
@@ -55,7 +58,7 @@ button:hover{
     height: 55px;
 }
 
-#zero{
+#tecla0{
     width: 72px;
 }
 

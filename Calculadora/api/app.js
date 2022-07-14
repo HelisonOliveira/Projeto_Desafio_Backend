@@ -1,11 +1,7 @@
+// export defaut function () {}
+const screen = document.getElementById('screen');
+const numberKeys = document.querySelectorAll('[id*=tecla]');
 
-function insert(){
-    
-}
+const insertNumber = (events) => screen.textContent = events.target.textContent;
 
-
-
-
-
-module.exports()
-
+numberKeys.forEach(numberKey => numberKey.addEventListener('click', insertNumber));
