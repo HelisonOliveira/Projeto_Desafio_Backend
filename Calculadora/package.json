@@ -1,0 +1,12 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "calculadora básica",
+  "main": "./api/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Helison de Oliveira",
+  "license": "ISC",
+  "type": "module"
+}
