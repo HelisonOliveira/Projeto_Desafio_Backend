@@ -18,21 +18,22 @@
         <section>
             
             <div class="name">
-                <label for="name">Nome:</label><input name="name" id="name"type="text" placeholder="Insira seu nome">
+                <label for="name">Nome:</label><input name="name" id="name"type="text" placeholder="Insira seu nome" required>
             </div>
             <div class="height">
-                <label for="height">Altura:</label><input name="height" id="height"type="text" placeholder="Ex.: 170 (1,70)">
+                <label for="height">Altura:</label><input name="height" id="height"type="text" placeholder="Ex.: 170 (1,70)" required>
             </div>
             <div class="weight">
-                <label for="weight">Peso:</label><input name="weight" id="weight" type="text" placeholder="Ex.: 80 (80kg)">
+                <label for="weight">Peso:</label><input name="weight" id="weight" type="text" placeholder="Ex.: 80 (80kg)" required>
             </div>
             <div class="button">
-                <button type="submit">CALCULAR</button>
+                <button id="button" type="submit">CALCULAR</button>
             </div>
             <div>
-                <p> "Nome" seu IMC é "valor" e você está "acima/abaixo do peso"</p>
+                <p id="screen"></p>
             </div>
         </section>
     </main>
+    <script src="api/app.js"></script>
 </body>
 </html>
