@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header h1{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.lampImage{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.button{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 50px;
+}
+
+#lightOn{
+    padding: 2px 30px;
+}
+
+#lightOff{
+    padding: 2px 15px;
+}
+
+#imgBrokenLamp{
+    width: 33%;
+}
+
+#imgLightOn{
+    width: 33%;
+}
+
+#imgLightOff{
+    width: 33%;
+}
