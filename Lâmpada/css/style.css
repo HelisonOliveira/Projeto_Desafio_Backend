@@ -4,14 +4,21 @@
 }
 
 header h1{
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
+}
+
+header p{
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+    font-weight: 600;
 }
 
 .lampImage{
     width: 300px;
     height: 300px;
-    border: 1px solid red;
+
 }
 
 .button{
@@ -24,20 +31,34 @@ header h1{
 
 #lightOn{
     padding: 2px 30px;
+    cursor: pointer;
+    background: green;
 }
 
 #lightOff{
     padding: 2px 15px;
-}
-
-#imgBrokenLamp{
-    width: 33%;
-}
-
-#imgLightOn{
-    width: 33%;
+    cursor: pointer;
+    background: red;
 }
 
 #imgLightOff{
-    width: 33%;
+    display: flex;
+    position: relative;
+    width: 75%;
+}
+
+#toExchange{
+    width: 100%;
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+   
+}
+
+#buttonToExchange{
+    background: yellow;
+    border-radius: 5px;
+    padding: 5px;
+    border: 3px solid red;
+    cursor: pointer;
 }
