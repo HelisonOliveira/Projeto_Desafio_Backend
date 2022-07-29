@@ -24,8 +24,37 @@ header P{
     margin-top: 20px;
 }
 
-.button{
-    display: block;
+#start{
+    display: flexbox;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    border: 5px solid black;
+    background: greenyellow;
+    cursor: pointer;
+    font-weight: 700;
+    color:black
+}
+
+#restart{
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    border: 5px solid black;
+    background: greenyellow;
+    cursor: pointer;
+    font-weight: 700;
+    color:black
+}
+#button{
+    display: none;
     margin: 0 auto;
     margin-top: 20px;
     width: 80px;
@@ -35,7 +64,7 @@ header P{
     cursor: pointer;
 }
 
-.button:active {
+#button:hover {
     box-shadow: 0px 2px 3px 8px rgb(40, 223, 12);
     border: 7px solid black;
 }
